@@ -1,0 +1,75 @@
+:root {
+  --color-300: hsl(212, 45%, 89%);
+  --color-500: hsl(216, 15%, 48%);
+  --color-900: hsl(218, 44%, 22%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--color-300);
+  height: 100vh;
+  width: 100%;
+  font-family: 'Outfit', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 24rem;
+  margin: 2rem auto;
+  padding: 1.2rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  border-radius: 1rem;
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 1.6rem;
+  color: var(--color-900);
+  width: 85%;
+  margin-top: 2rem;
+}
+
+p {
+  font-size: 1.1rem;
+  color: var(--color-500);
+  width: 85%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  line-height: 1.4rem;
+}
+
+.credit {
+  color: var(--color-900);
+}
+
+.credit a {
+  color: var(--color-500);
+  text-decoration: none;
+}
+
+.credit a:hover {
+  color: var(--color-900);
+}
