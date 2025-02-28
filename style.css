@@ -31,7 +31,7 @@ body {
 .container {
   background-color: #fff;
   max-width: 24rem;
-  margin: 10rem auto;
+  margin: 10rem auto 2rem;
   padding: 1.2rem;
   border-radius: 1.5rem;
   display: flex;
